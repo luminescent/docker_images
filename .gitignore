@@ -1,3 +1,6 @@
 # gedit backups
 *.*~
 *~
+
+# Idea dev env
+.idea
