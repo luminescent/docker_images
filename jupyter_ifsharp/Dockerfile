@@ -30,5 +30,5 @@ RUN mkdir notebooks
 VOLUME notebooks
 
 
-ENTRYPOINT ["jupyter-notebook", "--ip='*'", "--notebook-dir=/notebooks", "--config=/.local/share/jupyter/kernels/ifsharp/ipython_config.py"]
+ENTRYPOINT ["jupyter-notebook", "--no-browser", "--ip='*'", "--notebook-dir=/notebooks", "--config=/.local/share/jupyter/kernels/ifsharp/ipython_config.py"]
 
