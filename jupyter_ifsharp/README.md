@@ -14,4 +14,4 @@ Run the image with:
 docker run -it -p 8888:8888 -v /your_host_path_here:/notebooks jupyter_ifsharp:1.0
 ```
 
-The image exposes the port `8888` and the volume `notebooks`. Jupyter is configured to start in this folder.  
+The image exposes the port `8888` and the volume `notebooks`. Jupyter is configured to start in this folder. Use the container via the browser on http://localhost:8888 (or, when using Boot2Docker, put your Docker VM's IP address instead of localhost). This will display whatever exists in your mount for `notebooks` and will also save new notebooks and checkpoints there. 
