@@ -15,7 +15,7 @@ RUN echo "deb http://download.mono-project.com/repo/debian wheezy/snapshots/4.2.
 
 
 # Get and install the IfSharp kernel
-RUN git clone https://github.com/luminescent/IfSharp.git
+RUN git clone https://github.com/fsprojects/IfSharp.git
 WORKDIR IfSharp
 RUN git checkout jupyter
 RUN ./build.sh
