@@ -1,6 +1,6 @@
 # Jupyter notebook Docker file
 
-This Dockerfile contains a [Jupyter](http://jupyter.org/) [F#](https://github.com/fsprojects/IfSharp) kernel.
+This Dockerfile contains a [Jupyter](http://jupyter.org/) [F#](https://github.com/fsprojects/IfSharp) kernel. It is based on Anaconda3. 
   
 Build the image with: 
 
