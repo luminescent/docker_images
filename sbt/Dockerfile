@@ -1,5 +1,5 @@
 FROM java:openjdk-7-jdk
-MAINTAINER cnicolau@travelrepublic.co.uk
+MAINTAINER luminescent
 
 ENV SCALA_VERSION 2.11.7
 
