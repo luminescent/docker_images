@@ -1,0 +1,20 @@
+version: '3.3'
+ 
+services:
+ 
+  main:
+    image: doctorlink.azurecr.io/jenkins_net_core:2.0
+    ports:
+      - 8080:8080
+      - 50000:50000
+    secrets:
+      - jenkins-user
+      - jenkins-pass
+ 
+secrets:
+  jenkins-user:
+    file: user.txt
+#    external: true
+  jenkins-pass:
+    file: pass.txt
+#    external: true
